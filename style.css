@@ -1,0 +1,33 @@
+.centered-container {
+    text-align: center;
+}
+
+#header-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 0px 15px;
+    background-color: grey;
+}
+
+#main {
+    background-color: lightgrey;
+}
+
+#logo-container {
+    /* position: relative; */
+    /* width: auto; */
+    /* margin: auto; */
+    padding: 50px 0px 15px 0px;
+    /* text-align: center; */
+    background-color: white;
+}
+
+#search-field-container {
+    /* text-align: center; */
+    background-color: lightsteelblue;
+}
+
+#search-buttons-container {
+    /* text-align: center; */
+    background-color: pink;
+}
