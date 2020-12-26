@@ -1,33 +1,85 @@
-.centered-container {
-    text-align: center;
-}
+body {background-color: #1c2a41}
 
-#header-row {
+nav {
     display: flex;
     justify-content: space-between;
-    padding: 15px 15px 0px 15px;
+    padding: 5px;
     background-color: grey;
 }
 
-#main {
+main {
     background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-#logo-container {
-    /* position: relative; */
-    /* width: auto; */
-    /* margin: auto; */
-    padding: 50px 0px 15px 0px;
-    /* text-align: center; */
+.header {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: tan;
+}
+
+.header>li {
+    margin: 10px;
+}
+
+.logo-container {
+    margin: 75px 0 15px 0;
+    padding: 0;
     background-color: white;
 }
 
-#search-field-container {
-    /* text-align: center; */
-    background-color: lightsteelblue;
+.search-form {
+    /* padding: 5px 0 0 0; */
+    background-color: plum;
+    text-align: center;
 }
 
-#search-buttons-container {
-    /* text-align: center; */
+.search-field-container {
+    margin: 5px 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.search-field {
+    margin: auto;
+    width: 420px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: inset 1px 1px lightgrey; */
+}
+
+.search-field:hover {
+    border-color: transparent;
+    box-shadow: 2px 2px 1px lightgrey;
+}
+
+.search-text-input {
+    border: none;
+}
+
+.search-text-input:focus {
+    outline: none;
+}
+
+.search-buttons-container {
+    display: flex;
+    justify-content: center;
     background-color: pink;
+}
+
+.search-button {
+    margin: 5px;
+    border-width: 0;
 }

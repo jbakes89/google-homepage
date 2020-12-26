@@ -6,31 +6,35 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="container">
-            <div id="header-row">
-                <div id="left-header">
-                    <a href="#">About</a>
-                    <a href="#">Store</a>
+        <div class="container">
+            <nav class="nav">
+                <ul class="header" id="left-header">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Store</a></li>
+                </ul>
+                <ul class="header" id="right-header">
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><a href="#">dots</a></li>
+                    <li><a href="#">Sign in</a></li>
                 </div>
-                <div id="right-header">
-                    <a href="#">Gmail</a>
-                    <a href="#">Images</a>
-                    <a href="#">dots</a>
-                    <a href="#">Sign in</a>
-                </div>
-            </div>
-            <div id="main">
-                <div id="logo-container" class="centered-container">
+            </nav>
+            <main class="main">
+                <div class="logo-container">
                     <img id="logo" src="assets/logo.png" alt="Google">
                 </div>
-                <div id="search-field-container" class="centered-container">
-                    <input name="search-field" type="text">
-                </div>
-                <div id="search-buttons-container" class="centered-container">
-                    <input id="search-button" name="search-button" type="submit" value="Google Search">
-                    <input id="randomiser-button" name="randomiser-button" type="submit" value="I'm Feeling Lucky">
-                </div>
-            </div>
+                <form class="search-form">
+                    <div class="search-field-container">
+                        <div class="search-field">
+                            <input type="text" class="search-text-input" name="search-text-input">
+                        </div>
+                    </div>
+                    <div class="search-buttons-container">
+                        <input type="submit" class="search-button" name="search-button" value="Google Search">
+                        <input type="submit" class="search-button" name="randomiser-button" value="I'm Feeling Lucky">
+                    </div>
+                </form>
+            </main>
         </div>
     </body>
 </html>
